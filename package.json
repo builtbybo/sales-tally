@@ -1,5 +1,6 @@
 {
   "name": "sales",
+  "homepage": "https://builtbybo.github.io/sales-tally",  
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,6 +1,9 @@
 import React from 'react'
 import Course from './Course'
 
+// Child Component
+
+
 export class CourseSales extends React.Component {
     sumPrice(price) {
         this.setState({ total: this.state.total + price });
@@ -19,13 +22,14 @@ export class CourseSales extends React.Component {
 
     render() {
         console.log(this.props.items);
-
         var courses = this.props.items.map((item, i) => {
-            return <Course name={item.name}
+            return (
+                <Course name={item.name}
                 price={item.price}
                 duration={item.duration}
-                key={i} sumPrice={this.sumPrice} active={item.active} />
-
+                key={i} sumPrice={this.sumPrice} active={item.active} 
+                />
+            )
         });
         return (
             <div>

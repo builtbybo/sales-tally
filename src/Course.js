@@ -1,13 +1,13 @@
-import React from 'React'
+import React from 'react'
+
+// Child Component
 
 export class Course extends React.Component {
-
     clicker() {
         var active = !this.state.active;
         this.setState({ active: active });
         this.props.sumPrice(active ? this.props.price : -this.props.price);
     }
-
     constructor(props) {
         super(props);
 
@@ -26,5 +26,6 @@ export class Course extends React.Component {
         );
     }
 }
+
 
 export default Course
