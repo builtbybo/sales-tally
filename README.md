@@ -1,3 +1,6 @@
+To see this React app in action visit:
+[https://builtbybo.github.io/sales-tally](https://builtbybo.github.io/sales-tally)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
